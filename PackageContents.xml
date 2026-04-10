@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage 
+	SchemaVersion="1.0" 
+	AppVersion="1.0"
+    ProductCode="{03530861-EBE3-491F-AB34-04B9F1ABBF49}"
+    Name="Drawing Office Power Gent - Cabling"
+    Icon="./Contents/CUI/Icons/ppa3do64.ico"
+    Helpfile="./Contents/Help/Help.pdf"
+>
+ 
+	<CompanyDetails 
+		Name="Drawing Office Power Gent" 
+		Email="michiel.latruwe@infrabel.be"
+	/>
+ 
+	<RuntimeRequirements 
+		OS="Win64" 
+		Platform="AutoCAD*"
+		SeriesMin="R25.0" 
+		SeriesMax="R25.1" 
+		SupportPath="./Contents/Block/;
+	/>
+ 
+	<Components>
+	
+		<ComponentEntry
+			AppName="Cabling"
+			Version="1.0.0"
+			ModuleName="./Contents/Plugin/Cab.dll"
+		/>
+	</Components>
+  
+</ApplicationPackage>
