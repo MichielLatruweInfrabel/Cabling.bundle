@@ -18,16 +18,15 @@
 		Platform="AutoCAD*"
 		SeriesMin="R25.0" 
 		SeriesMax="R25.1" 
-		SupportPath="./Contents/Block/;
+		SupportPath="./Contents/Block/;"
 	/>
- 
+
 	<Components>
 	
-		<ComponentEntry
+		<ComponentEntry 
 			AppName="Cabling"
 			Version="1.0.0"
 			ModuleName="./Contents/Plugin/Cab.dll"
 		/>
 	</Components>
-  
 </ApplicationPackage>
