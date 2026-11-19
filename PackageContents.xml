@@ -28,5 +28,12 @@
 			Version="1.0.0"
 			ModuleName="./Contents/Plugin/Cab.dll"
 		/>
+
+		<ComponentEntry 
+			AppName="Cabling"
+			Version="1.0.0"
+			ModuleName="./Contents/Plugin/CadStandard.dll"
+		/>
+
 	</Components>
 </ApplicationPackage>
