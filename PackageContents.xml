@@ -30,9 +30,15 @@
 		/>
 
 		<ComponentEntry 
-			AppName="Cabling"
+			AppName="CadStandard"
 			Version="1.0.0"
 			ModuleName="./Contents/Plugin/CadStandard.dll"
+		/>
+
+				<ComponentEntry 
+			AppName="ToolPalette"
+			Version="1.0.0"
+			ModuleName="./Contents/Plugin/ToolPalette.dll"
 		/>
 
 	</Components>
